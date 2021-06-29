@@ -7,7 +7,7 @@ TODO:
 - [ ] @bridge/sidebar
 - [ ] @bridge/notification
 - [ ] @bridge/fs
-- [ ] @bridge/path
+- [x] @bridge/path
 - [ ] @bridge/env
 - [ ] @bridge/globals
 - [ ] @bridge/utils
@@ -15,7 +15,7 @@ TODO:
 - [ ] @bridge/fetch-definition
 - [ ] @bridge/windows
 - [ ] @bridge/toolbar
-- [ ] @bridge/compare-versions
+- [x] @bridge/compare-versions
 - [ ] @bridge/monaco
 - [ ] @bridge/json5
 - [ ] @bridge/com-mojang
