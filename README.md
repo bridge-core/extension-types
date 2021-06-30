@@ -20,4 +20,4 @@ TODO:
 - [ ] @bridge/json5
 - [ ] @bridge/com-mojang
 - [ ] @bridge/tab
-- [ ] @bridge/tab-actions
+- [x] @bridge/tab-actions
