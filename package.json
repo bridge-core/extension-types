@@ -1,0 +1,21 @@
+{
+  "name": "extension-types",
+  "version": "1.0.0",
+  "description": "Typescript declarations for bridge. v2's extension API.",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bridge-core/extension-types.git"
+  },
+  "author": "Joelant05",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bridge-core/extension-types/issues"
+  },
+  "homepage": "https://github.com/bridge-core/extension-types#readme",
+  "dependencies": {
+    "@types/wicg-file-system-access": "^2020.9.2"
+  }
+}
