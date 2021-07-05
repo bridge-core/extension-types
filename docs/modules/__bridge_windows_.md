@@ -1,5 +1,3 @@
-[extension-types](../README.md) / [Exports](../modules.md) / %22@bridge/windows%22
-
 # Namespace: "@bridge/windows"
 
 Module that provides access to bridge's window system.
@@ -11,10 +9,6 @@ Module that provides access to bridge's window system.
 • `Const` **BaseWindow**: `any`
 
 **`link`** https://github.com/bridge-core/editor/blob/main/src/components/Windows/BaseWindow.ts
-
-#### Defined in
-
-index.d.ts:697
 
 ## Functions
 
@@ -38,10 +32,6 @@ Creates a confirm window and displays it.
 
 `void`
 
-#### Defined in
-
-index.d.ts:775
-
 ___
 
 ### createDropdownWindow
@@ -64,10 +54,6 @@ Creates a new dropdown window and displays it.
 
 `void`
 
-#### Defined in
-
-index.d.ts:754
-
 ___
 
 ### createInformationWindow
@@ -86,10 +72,6 @@ Creates a new information window and displays it.
 #### Returns
 
 `void`
-
-#### Defined in
-
-index.d.ts:718
 
 ___
 
@@ -113,10 +95,6 @@ Create a new input window and displays it.
 
 `void`
 
-#### Defined in
-
-index.d.ts:733
-
 ___
 
 ### createWindow
@@ -135,7 +113,3 @@ ___
 #### Returns
 
 `any`
-
-#### Defined in
-
-index.d.ts:706

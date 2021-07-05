@@ -1,5 +1,3 @@
-[extension-types](../README.md) / [Exports](../modules.md) / %22@bridge/compare-versions%22
-
 # Namespace: "@bridge/compare-versions"
 
 ## Functions
@@ -32,7 +30,3 @@ compareVersions.compare('10.1.1', '10.2.2', '>='); // return false
 `boolean`
 
 `true` if the comparison between the firstVersion and the secondVersion satisfies the operator, `false` otherwise.
-
-#### Defined in
-
-index.d.ts:40

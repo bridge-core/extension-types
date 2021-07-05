@@ -1,5 +1,3 @@
-[extension-types](../README.md) / [Exports](../modules.md) / %22@bridge/notifications%22
-
 # Namespace: "@bridge/notifications"
 
 Module that allows extensions to create notifications.
@@ -40,10 +38,6 @@ create(
 
 `any`
 
-#### Defined in
-
-index.d.ts:333
-
 ___
 
 ### createError
@@ -73,7 +67,3 @@ try {
 #### Returns
 
 [`IDisposable`](../interfaces/idisposable.md)
-
-#### Defined in
-
-index.d.ts:349

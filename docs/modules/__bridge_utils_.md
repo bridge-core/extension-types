@@ -1,5 +1,3 @@
-[extension-types](../README.md) / [Exports](../modules.md) / %22@bridge/utils%22
-
 # Namespace: "@bridge/utils"
 
 Module that provides common functions to developers.
@@ -21,7 +19,3 @@ Opens a given url inside of the user's default browser.
 #### Returns
 
 `void`
-
-#### Defined in
-
-index.d.ts:687

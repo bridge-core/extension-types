@@ -1,5 +1,3 @@
-[extension-types](../README.md) / [Exports](../modules.md) / %22@bridge/tab-actions%22
-
 # Namespace: "@bridge/tab-actions"
 
 ## Functions
@@ -19,10 +17,6 @@ Add the default tab actions for the specific file tab.
 #### Returns
 
 `Promise`<`void`\>
-
-#### Defined in
-
-index.d.ts:471
 
 ___
 
@@ -44,10 +38,6 @@ Register a new tab action.
 
 Disposable
 
-#### Defined in
-
-index.d.ts:478
-
 ___
 
 ### registerPreview
@@ -67,7 +57,3 @@ Register a new tab preview
 `Promise`<[`IDisposable`](../interfaces/idisposable.md)\>
 
 Disposable
-
-#### Defined in
-
-index.d.ts:485

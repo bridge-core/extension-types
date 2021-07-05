@@ -1,5 +1,3 @@
-[extension-types](../README.md) / [Exports](../modules.md) / %22@bridge/sidebar%22
-
 # Namespace: "@bridge/sidebar"
 
 Module that allows extensions to create sidebar tabs.
@@ -32,7 +30,3 @@ create({
 #### Returns
 
 [`SidebarElement`](../interfaces/sidebarelement.md)
-
-#### Defined in
-
-index.d.ts:425

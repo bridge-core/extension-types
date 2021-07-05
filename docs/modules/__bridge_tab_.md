@@ -1,5 +1,3 @@
-[extension-types](../README.md) / [Exports](../modules.md) / %22@bridge/tab%22
-
 # Namespace: "@bridge/tab"
 
 Module that allows access to bridge.'s tab system.
@@ -12,10 +10,6 @@ Module that allows access to bridge.'s tab system.
 
 **`link`** https://github.com/bridge-core/editor/blob/main/src/components/TabSystem/CommonTab.ts
 
-#### Defined in
-
-index.d.ts:509
-
 ___
 
 ### FileTab
@@ -23,10 +17,6 @@ ___
 • `Const` **FileTab**: `any`
 
 **`link`** https://github.com/bridge-core/editor/blob/main/src/components/TabSystem/FileTab.ts
-
-#### Defined in
-
-index.d.ts:513
 
 ## Functions
 
@@ -47,10 +37,6 @@ Given a file path relative to the project root, open the corresponding file insi
 
 `Promise`<`void`\>
 
-#### Defined in
-
-index.d.ts:532
-
 ___
 
 ### openTab
@@ -70,10 +56,6 @@ Useful for ContentTabs: Programmatically add the tab to the tab system
 
 `Promise`<`any`\>
 
-#### Defined in
-
-index.d.ts:525
-
 ___
 
 ### register
@@ -91,7 +73,3 @@ Register new FileTabs to be picked up by the isTabFor tab system method
 #### Returns
 
 [`IDisposable`](../interfaces/idisposable.md)
-
-#### Defined in
-
-index.d.ts:519

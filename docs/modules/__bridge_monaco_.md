@@ -1,5 +1,3 @@
-[extension-types](../README.md) / [Exports](../modules.md) / %22@bridge/monaco%22
-
 # Namespace: "@bridge/monaco"
 
 Module that allows you to modify monaco's behaviors.
@@ -24,7 +22,3 @@ Register a file formatter.
 #### Returns
 
 `void`
-
-#### Defined in
-
-index.d.ts:302

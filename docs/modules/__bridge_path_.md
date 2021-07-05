@@ -1,5 +1,3 @@
-[extension-types](../README.md) / [Exports](../modules.md) / %22@bridge/path%22
-
 # Namespace: "@bridge/path"
 
 ## Functions
@@ -21,10 +19,6 @@ Return the last portion of a path.
 
 `string`
 
-#### Defined in
-
-index.d.ts:390
-
 ___
 
 ### dirname
@@ -42,10 +36,6 @@ Return the directory name of a path.
 #### Returns
 
 `string`
-
-#### Defined in
-
-index.d.ts:370
 
 ___
 
@@ -65,10 +55,6 @@ Return the extension of the path, from the last '.' to end of string in the last
 
 `string`
 
-#### Defined in
-
-index.d.ts:382
-
 ___
 
 ### join
@@ -86,10 +72,6 @@ Join all arguments together and normalize the resulting path.
 #### Returns
 
 `string`
-
-#### Defined in
-
-index.d.ts:376
 
 ___
 
@@ -109,7 +91,3 @@ Solve the relative path from {from} to {to}. At times we have two absolute paths
 #### Returns
 
 `string`
-
-#### Defined in
-
-index.d.ts:396

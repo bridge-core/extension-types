@@ -1,5 +1,3 @@
-[extension-types](../README.md) / [Exports](../modules.md) / %22@bridge/com-mojang%22
-
 # Namespace: "@bridge/com-mojang"
 
 Module that allows access to the com.mojang folder.
@@ -12,10 +10,6 @@ Module that allows access to the com.mojang folder.
 
 States whether com.mojang has been setup by the user.
 
-#### Defined in
-
-index.d.ts:10
-
 ## Functions
 
 ### requestFileSystem
@@ -27,7 +21,3 @@ Returns the com.mojang FileSystem instance.
 #### Returns
 
 `Promise`<`any`\>
-
-#### Defined in
-
-index.d.ts:14

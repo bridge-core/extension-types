@@ -1,5 +1,3 @@
-[extension-types](../README.md) / [Exports](../modules.md) / %22@bridge/fetch-definition%22
-
 # Namespace: "@bridge/fetch-definition"
 
 Grants access to the lightning cache database.
@@ -38,7 +36,3 @@ const walkAnimation = walkAnimations[0]
 #### Returns
 
 `Promise`<`string`[]\>
-
-#### Defined in
-
-index.d.ts:106

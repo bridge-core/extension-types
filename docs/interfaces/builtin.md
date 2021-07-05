@@ -1,5 +1,3 @@
-[extension-types](../README.md) / [Exports](../modules.md) / BuiltIn
-
 # Interface: BuiltIn
 
 ## Properties
@@ -53,10 +51,6 @@ A helper for quickly creating windows.
 		},
 	}
 </script>
-
-#### Defined in
-
-index.d.ts:625
 
 ___
 
@@ -112,7 +106,3 @@ A helper for quickly creating sidebar windows.
 		},
 	}
 </script>
-
-#### Defined in
-
-index.d.ts:675

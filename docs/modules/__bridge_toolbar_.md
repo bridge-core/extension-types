@@ -1,5 +1,3 @@
-[extension-types](../README.md) / [Exports](../modules.md) / %22@bridge/toolbar%22
-
 # Namespace: "@bridge/toolbar"
 
 Module that allows extensions to create toolbar tabs.
@@ -14,10 +12,6 @@ Used to create new toolbar categories.
 
 **`link`** https://github.com/bridge-core/editor/blob/main/src/components/Toolbar/ToolbarCategory.ts
 
-#### Defined in
-
-index.d.ts:548
-
 ___
 
 ### actionManager
@@ -27,10 +21,6 @@ ___
 Allows creating/disposing new app actions.
 
 **`link`** https://github.com/bridge-core/editor/blob/main/src/components/Actions/ActionManager.ts
-
-#### Defined in
-
-index.d.ts:553
 
 ## Functions
 
@@ -49,7 +39,3 @@ Add a new category to the app toolbar.
 #### Returns
 
 `void`
-
-#### Defined in
-
-index.d.ts:543

@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Typescript declarations for bridge. v2's extension API.",
   "scripts": {
-    "build": "typedoc --plugin typedoc-plugin-markdown --theme markdown --out docs --hideInPageTOC true types/index.d.ts"
+    "build": "typedoc --plugin typedoc-plugin-markdown --theme markdown --out docs --hideInPageTOC --readme none --disableSources --hideBreadcrumbs types/index.d.ts"
   },
   "repository": {
     "type": "git",

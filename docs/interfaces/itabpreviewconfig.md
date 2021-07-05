@@ -1,5 +1,3 @@
-[extension-types](../README.md) / [Exports](../modules.md) / ITabPreviewConfig
-
 # Interface: ITabPreviewConfig
 
 ## Properties
@@ -8,19 +6,11 @@
 
 • **fileMatch**: `string`
 
-#### Defined in
-
-index.d.ts:498
-
 ___
 
 ### name
 
 • **name**: `string`
-
-#### Defined in
-
-index.d.ts:497
 
 ## Methods
 
@@ -38,7 +28,3 @@ index.d.ts:497
 #### Returns
 
 `Promise`<`any`\>
-
-#### Defined in
-
-index.d.ts:499

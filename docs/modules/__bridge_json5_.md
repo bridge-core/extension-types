@@ -1,5 +1,3 @@
-[extension-types](../README.md) / [Exports](../modules.md) / %22@bridge/json5%22
-
 # Namespace: "@bridge/json5"
 
 Module that gives access to json parsing wth json5.
@@ -21,7 +19,3 @@ Parses a json string to a javascript object.
 #### Returns
 
 `any`
-
-#### Defined in
-
-index.d.ts:289

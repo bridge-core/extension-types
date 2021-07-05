@@ -1,5 +1,3 @@
-[extension-types](../README.md) / [Exports](../modules.md) / %22@bridge/fs%22
-
 # Namespace: "@bridge/fs"
 
 Module that allows extensions to interact with the user's file system.
@@ -23,10 +21,6 @@ Copy a file.
 
 `Promise`<`FileSystemFileHandle`\>
 
-#### Defined in
-
-index.d.ts:221
-
 ___
 
 ### copyFileHandle
@@ -45,10 +39,6 @@ Copy a file handle.
 #### Returns
 
 `Promise`<`FileSystemFileHandle`\>
-
-#### Defined in
-
-index.d.ts:227
 
 ___
 
@@ -69,10 +59,6 @@ Copy a folder by their paths.
 
 `Promise`<`void`\>
 
-#### Defined in
-
-index.d.ts:236
-
 ___
 
 ### copyFolderByHandle
@@ -92,10 +78,6 @@ Copy a folder by its FileSystemDirectoryHandle.
 
 `Promise`<`void`\>
 
-#### Defined in
-
-index.d.ts:242
-
 ___
 
 ### directoryExists
@@ -114,10 +96,6 @@ Return whether a directory exists or not.
 
 `Promise`<`boolean`\>
 
-#### Defined in
-
-index.d.ts:263
-
 ___
 
 ### fileExists
@@ -135,10 +113,6 @@ Return whether a file exists or not.
 #### Returns
 
 `Promise`<`boolean`\>
-
-#### Defined in
-
-index.d.ts:257
 
 ___
 
@@ -159,10 +133,6 @@ The getDirectoryHandle() method returns a FileSystemDirectoryHandle for a subdir
 
 `Promise`<`FileSystemDirectoryHandle`\>
 
-#### Defined in
-
-index.d.ts:136
-
 ___
 
 ### getFileHandle
@@ -179,10 +149,6 @@ ___
 #### Returns
 
 `Promise`<`FileSystemFileHandle`\>
-
-#### Defined in
-
-index.d.ts:140
 
 ___
 
@@ -202,10 +168,6 @@ Read a file by its FileHandle as a URL.
 
 `Promise`<`string`\>
 
-#### Defined in
-
-index.d.ts:251
-
 ___
 
 ### mkdir
@@ -222,10 +184,6 @@ ___
 #### Returns
 
 `Promise`<`void`\>
-
-#### Defined in
-
-index.d.ts:142
 
 ___
 
@@ -244,10 +202,6 @@ Read a file and return it.
 #### Returns
 
 `Promise`<`File`\>
-
-#### Defined in
-
-index.d.ts:178
 
 ___
 
@@ -268,10 +222,6 @@ Read the contents of a directory and returns the files.
 
 `Promise`<{ `kind`: `string` ; `name`: `string` ; `path`: `string`  }[]\>
 
-#### Defined in
-
-index.d.ts:163
-
 ___
 
 ### readJSON
@@ -289,10 +239,6 @@ Read a JSON file at a given path and return the file handle.
 #### Returns
 
 `Promise`<`FileSystemFileHandle`\>
-
-#### Defined in
-
-index.d.ts:207
 
 ___
 
@@ -314,10 +260,6 @@ Read the contents of a given directory.
 
 `Promise`<`FileSystemHandle`[]\>
 
-#### Defined in
-
-index.d.ts:149
-
 ▸ **readdir**(`path`, `config?`): `Promise`<`string`[]\>
 
 #### Parameters
@@ -332,10 +274,6 @@ index.d.ts:149
 
 `Promise`<`string`[]\>
 
-#### Defined in
-
-index.d.ts:153
-
 ▸ **readdir**(`path`, `__namedParameters`): `Promise`<`FileSystemHandle`[]\>
 
 #### Parameters
@@ -349,10 +287,6 @@ index.d.ts:153
 #### Returns
 
 `Promise`<`FileSystemHandle`[]\>
-
-#### Defined in
-
-index.d.ts:154
 
 ___
 
@@ -369,10 +303,6 @@ ___
 #### Returns
 
 `void`
-
-#### Defined in
-
-index.d.ts:127
 
 ___
 
@@ -391,10 +321,6 @@ Unlink a directory from the fileSystem, deleting it.
 #### Returns
 
 `Promise`<`void`\>
-
-#### Defined in
-
-index.d.ts:184
 
 ___
 
@@ -415,10 +341,6 @@ Write to a file from a FileSystemDirectoryHandle.
 
 `Promise`<`FileSystemFileHandle`\>
 
-#### Defined in
-
-index.d.ts:198
-
 ___
 
 ### writeFile
@@ -437,10 +359,6 @@ Write to a file at the specified path.
 #### Returns
 
 `Promise`<`FileSystemFileHandle`\>
-
-#### Defined in
-
-index.d.ts:191
 
 ___
 
@@ -461,7 +379,3 @@ Write a javascript object as JSON to a file.
 #### Returns
 
 `Promise`<`FileSystemFileHandle`\>
-
-#### Defined in
-
-index.d.ts:214

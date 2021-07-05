@@ -1,5 +1,3 @@
-[extension-types](../README.md) / [Exports](../modules.md) / SidebarElement
-
 # Interface: SidebarElement
 
 ## Properties
@@ -8,19 +6,11 @@
 
 • **isLoading**: `boolean`
 
-#### Defined in
-
-index.d.ts:454
-
 ___
 
 ### isSelected
 
 • **isSelected**: `boolean`
-
-#### Defined in
-
-index.d.ts:456
 
 ___
 
@@ -28,19 +18,11 @@ ___
 
 • **isVisible**: `boolean`
 
-#### Defined in
-
-index.d.ts:455
-
 ___
 
 ### sidebarUUID
 
 • `Protected` **sidebarUUID**: `string`
-
-#### Defined in
-
-index.d.ts:453
 
 ## Accessors
 
@@ -52,10 +34,6 @@ index.d.ts:453
 
 `any`
 
-#### Defined in
-
-index.d.ts:461
-
 ___
 
 ### displayName
@@ -65,10 +43,6 @@ ___
 #### Returns
 
 `string`
-
-#### Defined in
-
-index.d.ts:460
 
 ___
 
@@ -80,10 +54,6 @@ ___
 
 `string`
 
-#### Defined in
-
-index.d.ts:458
-
 ___
 
 ### uuid
@@ -93,10 +63,6 @@ ___
 #### Returns
 
 `string`
-
-#### Defined in
-
-index.d.ts:459
 
 ## Methods
 
@@ -108,10 +74,6 @@ index.d.ts:459
 
 `Promise`<`void`\>
 
-#### Defined in
-
-index.d.ts:463
-
 ___
 
 ### dispose
@@ -121,7 +83,3 @@ ___
 #### Returns
 
 `void`
-
-#### Defined in
-
-index.d.ts:462

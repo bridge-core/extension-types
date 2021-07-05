@@ -1,5 +1,3 @@
-[extension-types](../README.md) / [Exports](../modules.md) / IDisposable
-
 # Interface: IDisposable
 
 ## Properties
@@ -15,7 +13,3 @@
 ##### Returns
 
 `void`
-
-#### Defined in
-
-index.d.ts:785
