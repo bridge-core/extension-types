@@ -29,7 +29,7 @@ declare module '@bridge/compare-versions' {
    * @returns `true` if the comparison between the firstVersion and the secondVersion satisfies the operator, `false` otherwise.
    *
    * @example
-   * ```
+   * ```js
    * compareVersions.compare('10.1.8', '10.0.4', '>'); // return true
    * compareVersions.compare('10.0.1', '10.0.1', '='); // return true
    * compareVersions.compare('10.1.1', '10.2.2', '<'); // return true
@@ -90,6 +90,7 @@ declare module '@bridge/compare-versions' {
      * @param fetchAll 
      * 
      * @example
+     * ```js
      * const { fetchDefinition } = await require('@bridge/fetch-definition')
      * 
      * const walkAnimations = await fetchDefinition(
@@ -102,6 +103,7 @@ declare module '@bridge/compare-versions' {
      * // With fetchAll=false you still get a string[] even though it only has one entry
      * // => Consistency
      * const walkAnimation = walkAnimations[0]
+     * ```
      */
     export function fetchDefinition(
         fileType: string, 
@@ -313,38 +315,42 @@ declare module '@bridge/globals' {}
 	 * Create a new notification.
 	 * @param config 
 	 * @example
+     *  ```js
 	 * const { create } = await require('@bridge/notification')
 	 * 
 	 * create(
-	 * 	icon: 'mdi-apple',
-	 * 	message: 'Hello World!',
-	 * 	color: 'blue'
-	 * 	textColor: 'white',
-	 * 	disposeOnMiddleClick: true,
+	 * 	   icon: 'mdi-apple',
+	 * 	   message: 'Hello World!',
+	 * 	   color: 'blue'
+	 * 	   textColor: 'white',
+	 * 	   disposeOnMiddleClick: true,
 	 * 
-	 * 	() => {
-	 * 		// Do something...
-	 * 	},
-	 * 	() => {
-	 * 		// Do something...
-	 * 	}
+	 * 	   () => {
+	 * 		   // Do something...
+	 * 	   },
+	 * 	   () => {
+	 * 		   // Do something...
+	 * 	   }
 	 * )
+     * ```
 	 */
     export function create(config: INotificationConfig): any
 	/**
 	 * Create a new error notification.
 	 * @param error 
 	 * @example
+     * ```js
 	 * const { createError } = await require('@bridge/notification')
 	 * 
 	 * createError(new Error(`Oops, something went wrong :(`))
 	 * 
 	 * try {
-	 * 	const t = 0
-	 * 	t = 2 //Throws error
+	 * 	   const t = 0
+	 * 	   t = 2 //Throws error
 	 * } catch (error) {
-	 * 	createError(error)
+	 * 	   createError(error)
 	 * }
+     * ```
 	 */
     export function createError(error: Error): IDisposable
 }
@@ -412,15 +418,17 @@ declare module '@bridge/path' {
      * Material design icon to display within the sidebar navegation.
      * 
      * @example
+     * ```js
      * const { create } = await require('@bridge/sidebar')
      * const { MyComponent } = await require('@bridge/ui')
      * 
      * create({
-     * 	id: 'myExtension',
-     * 	displayName: 'Click Me',
-     * 	icon: 'mdi-apple',
-     * 	component: MyComponent
+     * 	   id: 'myExtension',
+     * 	   displayName: 'Click Me',
+     * 	   icon: 'mdi-apple',
+     * 	   component: MyComponent
      * })
+     * ```
      */
     export function create(
         config: ISidebarConfig
@@ -559,16 +567,16 @@ declare interface ITabPreviewConfig {
  declare module '@bridge/ui' {
     /**
      * @example
-     * 
+     * ```js
      * //Accesses the component inside of the ui/Main.vue file
      * const { Main } = await require('@bridge/ui')
      * 
      * 
      * //Accesses the component inside of the ui/Nested/Main.vue file
      * const {
-     * 	Nested: { Main: Main2 },
+     *     Nested: { Main: Main2 },
      * } = await require('@bridge/ui')
-     * 
+     * ```
      */
     export const UI: any
 
@@ -579,6 +587,7 @@ declare interface BuiltIn {
     /**
      * A helper for quickly creating windows.
      * @example
+     * ```html
      * <template>
      * 	<BaseWindow
      * 		v-if="shouldRender"
@@ -621,11 +630,13 @@ declare interface BuiltIn {
      * 		},
      * 	}
      * </script>
+     * ```
      */
     BaseWindow: any
     /**
      * A helper for quickly creating sidebar windows.
      * @example
+     * ```html
      * <template>
      * 	<SidebarWindow
      * 		v-if="shouldRender"
@@ -671,6 +682,7 @@ declare interface BuiltIn {
      * 		},
      * 	}
      * </script>
+     * ```
      */
     SidebarWindow: any
 }

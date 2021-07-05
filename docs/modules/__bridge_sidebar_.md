@@ -11,15 +11,17 @@ Module that allows extensions to create sidebar tabs.
 Creates a new sidebar and adds it to the current workspace.
 
 **`example`**
+```js
 const { create } = await require('@bridge/sidebar')
 const { MyComponent } = await require('@bridge/ui')
 
 create({
-	id: 'myExtension',
-	displayName: 'Click Me',
-	icon: 'mdi-apple',
-	component: MyComponent
+	   id: 'myExtension',
+	   displayName: 'Click Me',
+	   icon: 'mdi-apple',
+	   component: MyComponent
 })
+```
 
 #### Parameters
 

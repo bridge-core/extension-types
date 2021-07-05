@@ -9,6 +9,7 @@
 A helper for quickly creating windows.
 
 **`example`**
+```html
 <template>
 	<BaseWindow
 		v-if="shouldRender"
@@ -51,6 +52,7 @@ A helper for quickly creating windows.
 		},
 	}
 </script>
+```
 
 ___
 
@@ -61,6 +63,7 @@ ___
 A helper for quickly creating sidebar windows.
 
 **`example`**
+```html
 <template>
 	<SidebarWindow
 		v-if="shouldRender"
@@ -106,3 +109,4 @@ A helper for quickly creating sidebar windows.
 		},
 	}
 </script>
+```

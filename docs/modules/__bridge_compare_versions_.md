@@ -9,7 +9,7 @@
 Compare [semver](https://semver.org/) version strings using the specified operator.
 
 **`example`**
-```
+```js
 compareVersions.compare('10.1.8', '10.0.4', '>'); // return true
 compareVersions.compare('10.0.1', '10.0.1', '='); // return true
 compareVersions.compare('10.1.1', '10.2.2', '<'); // return true

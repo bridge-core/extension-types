@@ -11,22 +11,24 @@ Module that allows extensions to create notifications.
 Create a new notification.
 
 **`example`**
+ ```js
 const { create } = await require('@bridge/notification')
 
 create(
-	icon: 'mdi-apple',
-	message: 'Hello World!',
-	color: 'blue'
-	textColor: 'white',
-	disposeOnMiddleClick: true,
+	   icon: 'mdi-apple',
+	   message: 'Hello World!',
+	   color: 'blue'
+	   textColor: 'white',
+	   disposeOnMiddleClick: true,
 
-	() => {
-		// Do something...
-	},
-	() => {
-		// Do something...
-	}
+	   () => {
+		   // Do something...
+	   },
+	   () => {
+		   // Do something...
+	   }
 )
+```
 
 #### Parameters
 
@@ -47,16 +49,18 @@ ___
 Create a new error notification.
 
 **`example`**
+```js
 const { createError } = await require('@bridge/notification')
 
 createError(new Error(`Oops, something went wrong :(`))
 
 try {
-	const t = 0
-	t = 2 //Throws error
+	   const t = 0
+	   t = 2 //Throws error
 } catch (error) {
-	createError(error)
+	   createError(error)
 }
+```
 
 #### Parameters
 
