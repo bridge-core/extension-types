@@ -22,6 +22,36 @@ Get the color code of the given color name, from the current theme.
 
 ___
 
+### getCurrentMode
+
+▸ **getCurrentMode**(): ``"light"`` \| ``"dark"``
+
+Gets the current theme mode.
+
+#### Returns
+
+``"light"`` \| ``"dark"``
+
+___
+
+### getHighlighterInfo
+
+▸ **getHighlighterInfo**(`name`): { `background?`: `string` ; `color?`: `string` ; `isItalic?`: `boolean` ; `textDecoration?`: `string`  } \| `undefined`
+
+Get the highlighter info of a give color name.
+
+#### Parameters
+
+| Name | Type |
+| :------ | :------ |
+| `name` | `string` |
+
+#### Returns
+
+{ `background?`: `string` ; `color?`: `string` ; `isItalic?`: `boolean` ; `textDecoration?`: `string`  } \| `undefined`
+
+___
+
 ### onChange
 
 ▸ **onChange**(`func`): [`IDisposable`](../interfaces/idisposable.md)

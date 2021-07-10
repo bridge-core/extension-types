@@ -813,6 +813,22 @@ declare module '@bridge/theme' {
      * @param func 
      */
     export function onChange(func: (mode: 'dark' | 'light') => void): IDisposable
+
+    /**
+     * Gets the current theme mode.
+     */
+    export function getCurrentMode(): "light" | "dark"
+
+    /**
+     * Get the highlighter info of a give color name.
+     * @param name 
+     */
+    export function getHighlighterInfo(name: string): {
+        color?: string | undefined;
+        background?: string | undefined;
+        textDecoration?: string | undefined;
+        isItalic?: boolean | undefined;
+    } | undefined
 }
 
 declare type TColorName = 'text'|
