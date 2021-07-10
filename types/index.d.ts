@@ -796,3 +796,41 @@ declare interface BuiltIn {
 declare interface IDisposable {
     dispose: () => void
 }
+
+/**
+ * Module that allows you to access the current theme and react to when it changes.
+ */
+declare module '@bridge/theme' {
+    /**
+     * Get the color code of the given color name, from the current theme.
+     * @param name 
+     * The name of the color to get.
+     */
+    export function getColor(name: TColorName): string
+
+    /**
+     * Create a callback to be called when the given theme mode changes theme.
+     * @param func 
+     */
+    export function onChange(func: (mode: 'dark' | 'light') => void): IDisposable
+}
+
+declare type TColorName = 'text'|
+'toolbar'|
+'expandedSidebar'|
+'sidebarNavigation'|
+'primary'|
+'secondary'|
+'accent'|
+'error'|
+'info'|
+'warning'|
+'success'|
+'background'|
+'menu'|
+'footer'|
+'tooltip'|
+'sidebarSelection'|
+'tabActive'|
+'tabInactive'|
+'lineHighlightBackground'

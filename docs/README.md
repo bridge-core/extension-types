@@ -16,6 +16,7 @@
 - [&quot;@bridge/sidebar&quot;](modules/__bridge_sidebar_.md)
 - [&quot;@bridge/tab&quot;](modules/__bridge_tab_.md)
 - [&quot;@bridge/tab-actions&quot;](modules/__bridge_tab_actions_.md)
+- [&quot;@bridge/theme&quot;](modules/__bridge_theme_.md)
 - [&quot;@bridge/toolbar&quot;](modules/__bridge_toolbar_.md)
 - [&quot;@bridge/ui&quot;](modules/__bridge_ui_.md)
 - [&quot;@bridge/utils&quot;](modules/__bridge_utils_.md)
@@ -33,3 +34,9 @@
 - [ITabPreviewConfig](interfaces/itabpreviewconfig.md)
 - [SidebarElement](interfaces/sidebarelement.md)
 - [Signal](interfaces/signal.md)
+
+## Type aliases
+
+### TColorName
+
+Ƭ **TColorName**: ``"text"`` \| ``"toolbar"`` \| ``"expandedSidebar"`` \| ``"sidebarNavigation"`` \| ``"primary"`` \| ``"secondary"`` \| ``"accent"`` \| ``"error"`` \| ``"info"`` \| ``"warning"`` \| ``"success"`` \| ``"background"`` \| ``"menu"`` \| ``"footer"`` \| ``"tooltip"`` \| ``"sidebarSelection"`` \| ``"tabActive"`` \| ``"tabInactive"`` \| ``"lineHighlightBackground"``
