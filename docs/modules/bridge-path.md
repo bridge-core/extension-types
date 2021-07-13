@@ -1,4 +1,4 @@
-# Namespace: "@bridge/path"
+# @bridge/path
 
 ## Functions
 

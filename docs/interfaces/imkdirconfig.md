@@ -1,4 +1,4 @@
-# Interface: IMkdirConfig
+# IMkdirConfig
 
 ## Properties
 

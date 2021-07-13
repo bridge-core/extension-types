@@ -1,4 +1,4 @@
-# Namespace: "@bridge/json5"
+# @bridge/json5
 
 Module that gives access to json parsing wth json5.
 

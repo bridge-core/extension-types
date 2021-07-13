@@ -1,4 +1,4 @@
-# Namespace: "@bridge/monaco"
+# @bridge/monaco
 
 Module that allows you to modify monaco's behaviors.
 

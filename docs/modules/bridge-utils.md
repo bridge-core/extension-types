@@ -1,4 +1,4 @@
-# Namespace: "@bridge/utils"
+# @bridge/utils
 
 Module that provides common functions to developers.
 

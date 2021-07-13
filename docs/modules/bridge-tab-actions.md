@@ -1,4 +1,4 @@
-# Namespace: "@bridge/tab-actions"
+# @bridge/tab-actions
 
 ## Functions
 

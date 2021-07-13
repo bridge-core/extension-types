@@ -1,4 +1,4 @@
-# Namespace: "@bridge/windows"
+# @bridge/windows
 
 Module that provides access to bridge's window system.
 

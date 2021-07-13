@@ -1,4 +1,4 @@
-# Namespace: "@bridge/toolbar"
+# @bridge/toolbar
 
 Module that allows extensions to create toolbar tabs.
 

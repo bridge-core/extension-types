@@ -1,4 +1,4 @@
-# Namespace: "@bridge/notifications"
+# @bridge/notifications
 
 Module that allows extensions to create notifications.
 

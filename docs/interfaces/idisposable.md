@@ -1,4 +1,4 @@
-# Interface: IDisposable
+# IDisposable
 
 ## Properties
 

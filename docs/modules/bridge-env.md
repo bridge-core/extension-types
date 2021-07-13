@@ -1,4 +1,4 @@
-# Namespace: "@bridge/env"
+# @bridge/env
 
 Utility module that provides access to environmental project data.
 

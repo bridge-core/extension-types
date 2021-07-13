@@ -1,4 +1,4 @@
-# Namespace: "@bridge/sidebar"
+# @bridge/sidebar
 
 Module that allows extensions to create sidebar tabs.
 

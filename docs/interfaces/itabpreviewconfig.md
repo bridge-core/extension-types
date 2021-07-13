@@ -1,4 +1,4 @@
-# Interface: ITabPreviewConfig
+# ITabPreviewConfig
 
 ## Properties
 

@@ -1,4 +1,4 @@
-# Interface: IGetHandleConfig
+# IGetHandleConfig
 
 ## Properties
 

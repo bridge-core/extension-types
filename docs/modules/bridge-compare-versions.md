@@ -1,4 +1,4 @@
-# Namespace: "@bridge/compare-versions"
+# @bridge/compare-versions
 
 ## Functions
 

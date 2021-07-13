@@ -1,4 +1,4 @@
-# Interface: ISidebarConfig
+# ISidebarConfig
 
 ## Properties
 
