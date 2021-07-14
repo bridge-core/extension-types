@@ -1,3 +1,8 @@
+---
+description: ''
+sidebar: 'extensions'
+---
+
 # @bridge/notifications
 
 Module that allows extensions to create notifications.

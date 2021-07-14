@@ -1,3 +1,8 @@
+---
+description: ''
+sidebar: 'extensions'
+---
+
 # @bridge/tab
 
 Module that allows access to bridge.'s tab system.

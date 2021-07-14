@@ -1,3 +1,8 @@
+---
+description: ''
+sidebar: 'extensions'
+---
+
 # @bridge/toolbar
 
 Module that allows extensions to create toolbar tabs.

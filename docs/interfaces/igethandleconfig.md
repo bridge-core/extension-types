@@ -1,3 +1,8 @@
+---
+description: ''
+sidebar: 'extensions'
+---
+
 # IGetHandleConfig
 
 ## Properties

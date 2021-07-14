@@ -1,3 +1,8 @@
+---
+description: ''
+sidebar: 'extensions'
+---
+
 # @bridge/fs
 
 Module that allows extensions to interact with the user's file system.

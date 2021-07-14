@@ -1,3 +1,8 @@
+---
+description: ''
+sidebar: 'extensions'
+---
+
 # @bridge/fetch-definition
 
 Grants access to the lightning cache database.

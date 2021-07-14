@@ -1,3 +1,8 @@
+---
+description: ''
+sidebar: 'extensions'
+---
+
 # @bridge/com-mojang
 
 Module that allows access to the com.mojang folder.

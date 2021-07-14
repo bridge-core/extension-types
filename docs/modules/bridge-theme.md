@@ -1,3 +1,8 @@
+---
+description: ''
+sidebar: 'extensions'
+---
+
 # @bridge/theme
 
 Module that allows you to access the current theme and react to when it changes.

@@ -1,3 +1,8 @@
+---
+description: ''
+sidebar: 'extensions'
+---
+
 # @bridge/json5
 
 Module that gives access to json parsing wth json5.
