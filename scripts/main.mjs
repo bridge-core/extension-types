@@ -11,10 +11,9 @@ let modules = await fs.readdir('docs/modules')
 modules = modules.map(file => join('docs/modules', file))
 
 for (const file of interfaces) {
-    updateDoc(file)
+    await updateDoc(file)
 }
 for (const file of modules) {
-    updateDoc(file)
+    await updateDoc(file)
 }
-
-await fs.rename('docs/README.md', 'docs/index.md')
+await updateDoc('docs/README.md')

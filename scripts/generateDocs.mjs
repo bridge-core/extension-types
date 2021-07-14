@@ -7,11 +7,14 @@ export async function generateDocs() {
     interfaces = interfaces.map(file => join('docs/interfaces', file))
     let modules = await fs.readdir('docs/modules')
     modules = modules.map(file => join('docs/modules', file))
-    const index = 'docs/README.md'
+    const index = 'docs/index.md'
     const allFiles = interfaces.concat(index, modules)
 
     for (const file of allFiles) {
-        fs.unlink(file)
+        try {
+            await fs.access(file)
+            await fs.unlink(file)
+        } catch {}
     }
 
     const app = new Application()

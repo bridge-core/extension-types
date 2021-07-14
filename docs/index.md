@@ -1,4 +1,9 @@
-# extension-types
+---
+description: ''
+sidebar: 'extensions'
+---
+
+# Scripts
 
 ## Namespaces
 

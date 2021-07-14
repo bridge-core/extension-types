@@ -5,6 +5,7 @@ export async function updateDoc(path) {
     // Transform file names
     let newPath = path.replace(/__(.*)_/gi, '$1')
     newPath = newPath.replace(/_/gi, '-')
+    if (path === 'docs/README.md') newPath = 'docs/index.md'
     await fs.rename(path, newPath)
 
     // Transform content
@@ -13,6 +14,7 @@ export async function updateDoc(path) {
 
     text = text.replace(/# Interface: (.*)/gi, '# $1')
     text = text.replace(/# Namespace: "(.*)"/gi, '# $1')
+    text = text.replace('# extension-types', '# Scripts')
 
     text = "---\ndescription: ''\nsidebar: 'extensions'\n---\n\n" + text
 
