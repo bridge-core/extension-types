@@ -850,3 +850,41 @@ declare type TColorName = 'text'|
 'tabActive'|
 'tabInactive'|
 'lineHighlightBackground'
+
+/**
+ * Module that allows access to specific functions releated to the current project.
+ */
+declare module '@bridge/project' {
+    /**
+     * Check whether the current project contains the specified packs.
+     * @param packs
+     * The pack ids to check for.
+     */
+    export function hasPack(packs: PackTypeId[]): boolean
+
+    /**
+     * Register a pack exporter to be used to export the project.
+     * @param exporter 
+     * The exporter definition to register.
+     */
+    export function registerExporter(exporter: IExporter): void
+
+    /**
+     * Force compilation of the project using the specified compiler config.
+     * @param configFile 
+     * The name of the compiler config to compiler with. The config should be in the "<projectName>/.bridge/compiler/" directory.
+     */
+    export function compile(configFile: string): Promise<void>
+}
+
+declare type PackTypeId = | 'behaviorPack'
+| 'resourcePack'
+| 'skinPack'
+| 'worldTemplate'
+
+declare interface IExporter {
+	icon: string
+	name: string
+	isDisabled?: () => Promise<boolean> | boolean
+	export: () => Promise<void>
+}
