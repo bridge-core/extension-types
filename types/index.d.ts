@@ -875,6 +875,13 @@ declare module '@bridge/project' {
      * The name of the compiler config to compiler with. The config should be in the "<projectName>/.bridge/compiler/" directory.
      */
     export function compile(configFile: string): Promise<void>
+
+    /**
+     * Force the compilation of specified files.
+     * @param paths 
+     * The paths of the files to compile, relative to the project root.
+     */
+    export function compileFiles(paths: string[]): Promise<void>
 }
 
 declare type PackTypeId = | 'behaviorPack'
