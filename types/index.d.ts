@@ -882,6 +882,13 @@ declare module '@bridge/project' {
      * The paths of the files to compile, relative to the project root.
      */
     export function compileFiles(paths: string[]): Promise<void>
+
+    /**
+     * Remove a file from the fileSystem, compiler and packIndexer.
+     * @param path 
+     * The path to the file to unlink.
+     */
+    export function unlinkFile(path: string): Promise<void>
 }
 
 declare type PackTypeId = | 'behaviorPack'
